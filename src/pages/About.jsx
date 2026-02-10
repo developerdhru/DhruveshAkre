@@ -37,8 +37,8 @@ export default function About() {
           </div>
           <div className="info-card">
             <h3>Training & internships</h3>
-            <p>Internship: [Company / Role / Duration]</p>
-            <p>Training: [Program / Institute / Duration]</p>
+            {/* <p>Internship: [Company / Role / Duration]</p>
+            <p>Training: [Program / Institute / Duration]</p> */}
             <p>Workshop: WORKSHOP ON AUTOCAD (2021)</p>
           </div>
         </div>
