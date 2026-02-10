@@ -1,7 +1,6 @@
 @media (max-width: 900px) {
   .hero,
-  .about,
-  .admin-layout {
+  .about {
     grid-template-columns: 1fr;
   }
 
@@ -13,9 +12,6 @@
     display: grid;
   }
 
-  .media-row {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (max-width: 900px) {

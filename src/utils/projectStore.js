@@ -30,40 +30,4 @@ export const loadProjects = () => {
   }
 }
 
-export const saveProjects = (projects) => {
-  const normalized = normalizeData(projects)
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(normalized))
-  window.dispatchEvent(new CustomEvent('projects:updated'))
-  return normalized
-}
-
-export const addProject = (type, project) => {
-  const current = loadProjects()
-  const normalized = normalizeProject(project)
-  const next = {
-    ...current,
-    [type]: [normalized, ...current[type]],
-  }
-  return saveProjects(next)
-}
-
-export const removeProject = (type, id) => {
-  const current = loadProjects()
-  const next = {
-    ...current,
-    [type]: current[type].filter((project) => project.id !== id),
-  }
-  return saveProjects(next)
-}
-
-export const updateProject = (type, updatedProject) => {
-  const current = loadProjects()
-  const normalized = normalizeProject(updatedProject)
-  const next = {
-    ...current,
-    [type]: current[type].map((project) =>
-      project.id === normalized.id ? normalized : project
-    ),
-  }
-  return saveProjects(next)
-}
+// Editing helpers removed with admin dashboard.

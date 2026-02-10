@@ -2,14 +2,11 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Header from './components/Header.jsx'
 import Footer from './components/Footer.jsx'
-import ProtectedRoute from './components/ProtectedRoute.jsx'
 import Home from './pages/Home.jsx'
 import About from './pages/About.jsx'
 import Projects from './pages/Projects.jsx'
 import Services from './pages/Services.jsx'
 import Contact from './pages/Contact.jsx'
-import Admin from './pages/Admin.jsx'
-import Login from './pages/Login.jsx'
 
 export default function App() {
   return (
@@ -21,15 +18,6 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/services" element={<Services />} />
-          <Route path="/login" element={<Login />} />
-          <Route
-            path="/admin"
-            element={
-              <ProtectedRoute>
-                <Admin />
-              </ProtectedRoute>
-            }
-          />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
