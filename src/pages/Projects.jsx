@@ -27,23 +27,414 @@ export default function Projects() {
   const mediaProjects = [
     {
       id: 'media-1',
-      title: 'Creative Editing Suite',
-      description: 'Video and photo edits focused on storytelling and rhythm.',
-      skills: ['Premiere Pro', 'Photoshop', 'After Effects'],
+      title: 'SGMBA Full Traditional Video',
+      description: `📜 सार्वजनिक गणेशोत्सव मंडळ भुजानाईक आळी, दांडी – सुवर्ण महोत्सवी वर्ष (अखंड ५० वर्षांची गौरवशाली परंपरा) । ॐ गणेशाय नमः 🙏 या वर्षी आपल्या मंडळाने सुवर्णमहोत्सवी वर्ष उत्साहात साजरे केले. बाप्पाच्या कृपेने आणि सर्वांच्या सहकार्याने या वाटचालीचा सुवर्ण टप्पा गाठता आला ✨ गणेश चतुर्थीच्या एक दिवस आधी ढोल-ताशांच्या गजरात बाप्पाचे भव्य स्वागत करण्यात आले. गणेश स्थापना व पूजेनंतर ज्येष्ठ सदस्यांचा शाल-श्रीफळ देऊन विशेष सन्मान करण्यात आला. महिला मंडळाच्या परिश्रमातून सर्व भक्तांसाठी महाप्रसादाचे आयोजन करण्यात आले. विसर्जन सोहळा बँडच्या सुरेल तालावर भक्ती आणि भावनेने भरलेला वातावरणात संपन्न झाला 🎺 विशेष आभार सर्व मंडळ सदस्यांचे, मंडप व स्टेज डेकोरेशन टीमचे, महिला मंडळाचे, व्हिडिओग्राफर टीमचे, ढोल-ताशा पथक व बँड पथकाचे आणि सर्व गणेश भक्तांचे 🙏 बाप्पा, तुमची कृपा अशीच आमच्यावर राहू दे! ॐ गणेशाय नमः! गणपती बाप्पा मोरया — पुढच्या वर्षी लवकर या! ✨🐘`,
+      skills: ['Premiere Pro','After Effects','Reels', 'Transitions', 'Sound design'],
       media: [
         {
-          label: 'Drive preview',
-          url: 'https://drive.google.com/file/d/1u0rbqg55qnbbjkPl2zDv6oKUaD99k50D/preview',
+          label: 'SGMBA 2025 Full Video',
+          url: 'https://drive.google.com/file/d/1Os1E7LAOXhEj1y5GKKHpIdgGbAXj6Nea/preview',
+        },
+        {
+          label: 'SGMBA Reel Edit',
+          url: 'https://drive.google.com/file/d/1QDgQrhqg54TOR_84t2IljstoX9iATyVK/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/14Cv_s3It6eBZLe_bD-Q-qfp2aH0gJkkR/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1Lta1KXVRhkqL1Gl2oy18x7quHg32Df0d/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1e-aYP6UOZTZslcO0FimaYL5sChAnh5lD/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1BTF3vL9sPsVrKUSyRJq2b4m7nuSMND3V/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/18l2TaWPSfJDjKnNS0h0mydb4POvsB_fM/preview',
         },
       ],
     },
     {
       id: 'media-2',
-      title: 'Reel Editing Showcase',
-      description: 'Short-form edits optimized for social engagement.',
-      skills: ['Reels', 'Transitions', 'Sound design'],
-      media: [],
+      title: 'Cinematic Prewedding - Jigar & Jalak',
+      description: 'Some love stories are written by fate long before two hearts meet. From a single glance to a lifetime promise, their journey has been nothing short of magical. Through every moment, they found strength in each other and peace in togetherness. This is not just a celebration of love — it’s the union of two souls destined to walk side by side, building a future filled with dreams, devotion, and forever.',
+      skills: ['Premiere Pro', 'Transitions', 'Sound design'],
+      media: [
+        {
+          label: 'Cinematic Edit',
+          url: 'https://drive.google.com/file/d/1u0rbqg55qnbbjkPl2zDv6oKUaD99k50D/preview',
+        },
+      ],
     },
+    {
+      id: 'media-3',
+      title: 'Wedding Vibes - Lalit & Nishita',
+      description: 'It didn’t happen all at once. It grew slowly — in conversations that lasted hours, in smiles that needed no reason, and in silence that felt safe. They became each other’s comfort, support, and home. And now, as they step into a new chapter together, they carry not just love, but understanding, trust, and a promise to stand together through everything life brings.',
+      skills: ['Premiere Pro', 'Transitions', 'Sound design'],
+      media: [
+        {
+          label: 'Cinematic Edit',
+          url: 'https://drive.google.com/file/d/1alwCyjDnCoRitndmEcjTDZWl4JA1BVXp/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-4',
+      title: 'Rajnagar Cha Raja',
+      description: 'The wait is over… and the sound of devotion fills the air. With beating dhols and hearts full of faith, we welcome the remover of obstacles, the symbol of wisdom and prosperity — Ganapati Bappa. As he steps into our home, he doesn’t just arrive as an idol, but as a blessing, a protector, and a part of our family. May his presence fill our lives with happiness, strength, and new beginnings. Ganapati Bappa Morya!',
+      skills: ['Premiere Pro', 'After Effects', 'Transitions', 'Sound design'],
+      media: [
+        {
+          label: 'Cinematic Video',
+          url: 'https://drive.google.com/file/d/1TUHzeNQK3unHhexhk6B2GXIezfZhYyki/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/12KAEVZ2IhY1tQhX8wFoUnXl-NvB2MaVj/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1SQhq7Qc4y5WxkyYNvk_5oBUeR73dqR45/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1dLpiMbkfUhi6gWDkhojlQFiMm-reP3EV/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1puu3ak37uH1ifuNxKvccGXcBTLQxYQSO/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1jLxn89OnBCCKAX7SrYxj6uM2llxYM4WI/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1tpBvKFOW6Gl1IFdJQVKi3UEJSXIIen7-/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-5',
+      title: 'Pradnya Haldi Vibes',
+      description: 'The vibrant colors, the joyous laughter, and the sacred rituals — every moment of the Haldi ceremony is a celebration of love, tradition, and new beginnings. As turmeric paste is applied with care and blessings are shared, we come together to honor the bride-to-be and the beautiful journey she is about to embark on. Here’s to a lifetime of happiness, prosperity, and cherished memories for Pradnya. May your life be as bright and joyful as this special day! 🌼✨',
+      skills: ['Premiere Pro', 'After Effects', 'Transitions', 'Sound design'],
+      media: [
+        {
+          label: 'Haldi Vibes',
+          url: 'https://drive.google.com/file/d/1iHZJgDT4nyJY_xIC_y_qSs9oBxFTsRA2/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-6',
+      title: 'Wedding Invitation Edit',
+      description: 'Wedding invitations are more than just a call to celebrate — they are the first glimpse into a couple’s love story and the tone for their big day. With every frame, transition, and beat, we crafted an invitation that reflects their unique bond, shared dreams, and the joyous journey ahead. This is not just an invite; it’s a heartfelt message to friends and family, inviting them to witness the beginning of a beautiful forever.',
+      skills: ['After Effects', 'Motion graphics', 'Illustrator', 'Photoshop'],
+      media: [
+        {
+          label: 'Invitation Edit',
+          url: 'https://drive.google.com/file/d/10OidizF49BOJ9bbhPwhOq5H3ofe3oEO_/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1iz_4Wrwboy23ZE0v57F1PHU5Nyqv337Q/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/162e891kkLk3fvC5rJpey2M3Ln270TaBc/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1zBnnu7Lb9Iy3tMv1O_bFVqYhdogUU1ao/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1gdkqmtH5Nn1kZf0Eb-1uiSsjR9W5FO2D/preview',
+        }
+      ],
+    },
+    {
+      id: 'media-7',
+      title: 'SaiArt Reels Edit',
+      description: '',
+      skills: ['Premiere Pro', 'Sound design', 'Transitions'],
+      media: [
+        {
+          label: 'Ganapati Bappa Reels',
+          url: 'https://drive.google.com/file/d/1ICmYPb2a_TpWWdvok34FyzinP0ze9ePY/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1RA4qeOxqaxjO9DEf1b3Jnz-09CsJKdWq/preview',
+        },
+
+      ],
+    },
+    {
+      id: 'media-8',
+      title: 'UpUrFit Brand Reel',
+      description: `UpUrFit is India's first specialized sports and fitness topical solutions brand, co-created with the fitness community to enhance performance and recovery. Founded by Munish Vig and Vikram Gunjal, the Mumbai-based startup offers pre-workout activation (Thermo Gel) and post-workout recovery (Cryo Gel/Spray) products. `,
+      skills: ['Premiere Pro', 'Motion graphics', 'Transitions', 'Visual Effects'],
+      media: [
+        {
+          label: 'UpUrFit Brand Reel',
+          url: 'https://drive.google.com/file/d/10WuLehnRZvUzowZW81jAHca02cKRvg33/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-9',
+      title: 'Hacktify Brand Reel',
+      description: '',
+      skills: ['After Effects', 'Typography', 'Premire Pro'],
+      media: [
+        {
+          label: 'Hacktify Typography Reel',
+          url: 'https://drive.google.com/file/d/1JVqWnAYI-12IVTbkvSCNRQ6lG0s0E-uP/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-10',
+      title: 'Holi Reels Edit',
+      description: 'Holi in Mahim, particularly in Mahim Koliwada (fisherman colony), is a vibrant, traditional, and high-energy celebration deeply rooted in Koli culture. Celebrations feature large, decorated bonfires with Mataji (Goddess) idols, traditional music, dancing, and lively street-side, community-driven color play in areas like Jannabai Chawl. ',
+      skills: ['Premiere Pro', 'Sound design', 'Transitions'],
+      media: [
+        {
+          label: 'Holi Reels Edit',
+          url: 'https://drive.google.com/file/d/1__TFT47Hr4Y4L1scc82cGs0eOvGWtxwp/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-11',
+      title: 'Hiranandani Home Tour',
+      description: 'Home Tours are more than just a showcase of spaces — they are a glimpse into the lifestyle, design philosophy, and unique features that make a house a home. This tour of a Hiranandani residence highlights the blend of elegance, functionality, and comfort that defines modern living. From thoughtfully designed interiors to innovative amenities, this video captures the essence of what makes this home truly special.',
+      skills: ['Premiere Pro', 'Transitions'],
+      media: [
+        {
+          label: 'Hiranandani Home Tour',
+          url: 'https://drive.google.com/file/d/10SbnwWVGZsrougdderJy1vqCSsw48BRy/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-12',
+      title: 'Swanadan Mujar Traditional Video',
+      description: 'Today is not just a ritual, it is a blessing wrapped in tradition. As tiny curls fall away, they carry with them the past and make space for a bright new beginning. Surrounded by love, laughter, and family prayers, this little soul steps into a journey guided by protection, purity, and endless blessings. May every step ahead be filled with happiness, health, and success. This Mundan ceremony is not just a custom — it’s the start of a beautiful life story written with faith and love. 🌸✨',
+      skills: ['Premiere Pro', 'Transitions'],
+      media: [
+        {
+          label: 'Swanadan Mujar Mundan Video',
+          url: 'https://drive.google.com/file/d/19RpQCN88CV9cJAU_GHZHeHFj2H1dAdwG/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-13',
+      title: 'Ghor Drama Teaser',
+      description: `Every family has secrets… but some secrets are too dangerous to stay hidden.
+
+Behind the smiles, behind the celebrations, behind closed doors — a storm has been growing.
+
+Trust is breaking.
+Relationships are shaking.
+And when truth finally comes out… nothing will ever be the same.
+
+This is not just a story of love and betrayal —
+It’s a battle of ego, emotions, and revenge.
+
+Get ready… because the drama is about to begin.`,
+      skills: ['Premiere Pro', 'Transitions'],
+      media: [
+        {
+          label: 'Ghor Drama Teaser',
+          url: 'https://drive.google.com/file/d/144pdBNY35ATdY4FqUDGgYAY5WvplnbA1/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-14',
+      title: 'Sarva Mangal Family Trust',
+      description: 'Where compassion becomes action and humanity finds its true meaning — Sarva Mangal Family Trust stands as a beacon of hope. Dedicated to serving the needy, supporting the elderly, guiding the lost, and nurturing young lives with care and dignity, this trust is more than an organization — it is a family built on kindness and faith. With every helping hand and every heartfelt prayer, Sarva Mangal Family Trust continues its mission to spread love, restore hope, and create a future filled with strength, support, and new beginnings for all. 🙏✨',
+      skills: ['Premiere Pro', 'Transitions'],
+      media: [
+        {
+          label: 'Sarva Mangal Family Trust Video',
+          url: 'https://drive.google.com/file/d/1Dmcf7QLYsmORFJE47m5NtNH7Lt_Mj8up/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-15',
+      title: 'Ceramic Pro Brand Video',
+      description: '',
+      skills: ['After Effects', 'Motion graphics', 'Transitions'],
+      media: [
+        {
+          label: 'Ceramic Pro Brand Video',
+          url: 'https://drive.google.com/file/d/1rJeQGjEucNBE4MY2oBZkEdyDGDJziL92/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1FD_nUH-k0Lq5Ao9_5JlygaSfnbRGONnz/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1rIf1qqgMysIjC91CrWYC_y7-gXr5t5kG/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1AwQuIgyws1lp-bd3_Ns04gJSQMbUqA9p/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1f9f7t85-LCeem7uKS9dB0m-__jrz7hYO/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1rb-k5bDOLtUQOVdBeTZSHql9w5n3JIka/preview',
+        }
+      ],
+    },
+    {
+      id: 'media-16',
+      title: 'MPIRE VISTA (BALLB) Office Tour',
+      description: 'Office tours are more than just a walkthrough of a workspace — they are a glimpse into the culture, creativity, and unique vibe that defines a company. This tour of MPIRE VISTA’s BALLB office captures the blend of professionalism and innovation that fuels their work. From thoughtfully designed interiors to collaborative spaces, this video showcases how the environment inspires creativity, fosters teamwork, and reflects the brand’s identity. Step inside and experience the heart of where ideas come to life.',
+      skills: ['Premiere Pro','After Effects', 'Motion graphics', 'Transitions'],
+      media: [
+        {
+          label: 'MPIRE VISTA Office Tour',
+          url: 'https://drive.google.com/file/d/13jbofSofSvrkZGJpaqsPIJh8kIrKSZnf/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-17',
+      title: 'Priyanka Cinematic Reel',
+      description: '',
+      skills: ['Premiere Pro', 'Motion graphics', 'Transitions'],
+      media: [
+        {
+          label: 'Priyanka Cinematic Reel',
+          url: 'https://drive.google.com/file/d/12E_Yx2yvoR2TFSIjJCgmqDtxnVfxDS9l/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-18',
+      title: 'Sayali Cinematic Video',
+      description: '',
+      skills: ['Premiere Pro', 'Motion graphics', 'Transitions'],
+      media: [
+        {
+          label: 'Sayali Cinematic Video',
+          url: 'https://drive.google.com/file/d/12ZjiHgBYCjEVHapJXLfhNbML7cNqSSN8/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-19',
+      title: 'Prewedding - Sujit & Aarti',
+      description: 'Like the sky meeting the horizon, their journey feels endless and calm. In open fields and under golden sunsets, they found a love that feels free and fearless. Every step they take together writes a new memory, and every heartbeat reminds them that they were meant to walk this road side by side — today, tomorrow, and always.',
+      skills: ['Premiere Pro', 'Motion graphics', 'Transitions'],
+      media: [
+        {
+          label: 'Prewedding - Sujit & Aarti',
+          url: 'https://drive.google.com/file/d/114ATd4gd0_jBTAWgJt33g76U1GD4f4Xw/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-20',
+      title: 'Prewedding - Vivek & Manali',
+      description: 'Ek choti si mulaqat se shuru hui kahani, aaj zindagi bhar ke safar tak pahunch chuki hai. Hasi, shararat, sapne aur wafaa — in sab ne milkar inka rishta aur gehra bana diya. Yeh sirf pyaar nahi, ek faisla hai — har din ek dusre ko chunne ka. Aur ab, yeh dono sirf saath nahi chalenge… balki saath jeeyenge.',
+      skills: ['Premiere Pro', 'Motion graphics', 'Transitions'],
+      media: [
+        {
+          label: 'Prewedding - Vivek & Manali',
+          url: 'https://drive.google.com/file/d/1eTUC0e18Tuh4OdgCeDLcn6vs524Ia_0A/preview',
+        },
+      ],
+    },
+    {
+      id: 'media-21',
+      title: 'Text Animation After Effects',
+      description: '',
+      skills: ['After Effects', 'Motion graphics'],
+      media: [
+        {
+          label: 'Invitation Edit',
+          url: 'https://drive.google.com/file/d/1XlwqbbgeroHtXKD8GP0Jdw_RmYVe11GM/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1rRwoALwM_L-LbRPmZtKysXyZoN4EnFfG/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1F5zZWbH9ZCdUWsrIdSHC8Z4l-72aqOMa/preview', 
+        }
+      ],
+    },
+    {
+      id: 'media-22',
+      title: 'Bappa Video Edit',
+      description: '',
+      skills: ['Premiere Pro', 'Motion graphics', 'Transitions'],
+      media: [
+        {
+          label: 'Bappa Video Edit',
+          url: 'https://drive.google.com/file/d/1vE7Xj3kZ_Z4Wbt6PjwA0PWF6SyIhU_St/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1lo7yU0ETKR0UkAm65A5i7gw8WfM5jWdV/preview',
+        }
+      ],
+    },
+    {
+      id: 'media-23',
+      title: 'Naming Ceremony Cinematic Video',
+      description: 'A name is more than just a word — it is a blessing, an identity, and the beginning of a beautiful journey. Today, surrounded by love, laughter, and heartfelt prayers, we celebrate the arrival of a precious soul and the name that will walk with them through every dream and every milestone. As family gathers and blessings fill the air, this naming ceremony becomes a promise — a promise of protection, happiness, and a future shining with endless possibilities. This is not just the start of a life, but the start of a story written with love. ✨👶🌸',
+      skills: ['Premiere Pro', 'Transitions'],
+      media: [
+        {
+          label: 'Naming Ceremony Cinematic Video',
+          url: 'https://drive.google.com/file/d/13CWpYtSySkqqsZVP0-NQk5W7Zcb-nD_h/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1H8t500Lx0XWINZRWpohb3m_KNI834A26/preview',
+        }
+      ],
+    },
+    {
+      id: 'media-24',
+      title: 'Cinematic Reel Edit',
+      description: '',
+      skills: ['Premiere Pro', 'Motion graphics', 'Transitions'],
+      media: [
+        {
+          label: 'Cinematic Reel Edit',
+          url: 'https://drive.google.com/file/d/1h2LHSGaF9p8iAVK54acDQgWHcot-qCGF/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1Fk3CqXriaS6bYhND39GlGdM2AAmy-8Og/preview',
+        }
+      ],
+    },
+    {
+      id: 'media-25',
+      title: 'Ranjeeta Cinematic Video',
+      description: '',
+      skills: ['Premiere Pro', 'Motion graphics', 'Transitions'],
+      media: [
+        {
+          label: 'Ranjeeta Cinematic Video',
+          url: 'https://drive.google.com/file/d/1vJol9kkeQnTju6TtLUSnRFtYGu1PeLIR/preview',
+        },
+        {
+          url: 'https://drive.google.com/file/d/1R1eaIcCZs-6QwdsB8GoaZRp-fyXPkw8g/preview',
+        }
+      ],
+    },
+    {
+      id: 'media-26',
+      title: 'Rinky Kahde Cinematic Video',
+      description: '',
+      skills: ['After Effects', 'Motion graphics', 'Transitions'],
+      media: [
+        {
+          label: 'Rinky Kahde Cinematic Video',
+          url: 'https://drive.google.com/file/d/1jNB7wPNyidfAxhNDEkWLWzR9fqbFnkP9/preview',
+        },
+      ],
+    },
+
   ]
 
   const activeProjects = activePanel === 'dev' ? devProjects : mediaProjects
@@ -67,7 +458,7 @@ export default function Projects() {
           onClick={() => setActivePanel('dev')}
           aria-pressed={activePanel === 'dev'}
         >
-          Programming
+          Featured Projects
         </button>
         <div className="toggle-or">OR</div>
         <button
@@ -76,13 +467,13 @@ export default function Projects() {
           onClick={() => setActivePanel('media')}
           aria-pressed={activePanel === 'media'}
         >
-          Video + Photo
+          Media Work
         </button>
       </div>
 
       <section className="panel-card">
         <div className="panel-head">
-          <h3>{activePanel === 'dev' ? 'Programming projects' : 'Video + photo editing'}</h3>
+          <h3>{activePanel === 'dev' ? 'Featured Projects' : 'Video + photo editing'}</h3>
           <p>
             {activePanel === 'dev'
               ? 'Full stack builds, IoT experiments, and web applications.'

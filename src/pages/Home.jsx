@@ -23,11 +23,11 @@ export default function Home() {
             </div>
             <div>
               <strong>Developer</strong>
-              <span>Web apps</span>
+              <span>Innovate. Code. Create.</span>
             </div>
             <div>
               <strong>Editor</strong>
-              <span>Budget-Friendly</span>
+              <span>Snip, Snap, and Shine</span>
             </div>
           </div>
         </div>
