@@ -473,11 +473,11 @@ Get ready… because the drama is about to begin.`,
 
       <section className="panel-card">
         <div className="panel-head">
-          <h3>{activePanel === 'dev' ? 'Featured Projects' : 'Video + photo editing'}</h3>
+          <h3>{activePanel === 'dev' ? 'Featured Projects' : 'Media Work Done by Me'}</h3>
           <p>
             {activePanel === 'dev'
               ? 'Full stack builds, IoT experiments, and web applications.'
-              : 'Reels, invitation edits, and cinematic storytelling work.'}
+              : 'Reels, invitation edits, and cinematic storytelling work. Note: Below some content shooted by me is being edited by me, while some content shot by others is also being edited by me. I have done the editing for all the content below, but not all the shooting.'}
           </p>
         </div>
 

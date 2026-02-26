@@ -1,4 +1,5 @@
 import React from 'react'
+import profilePhoto from '../assets/profile-placeholder.svg'
 
 export default function Home() {
   return (
@@ -33,6 +34,9 @@ export default function Home() {
         </div>
         <div className="hero-card">
           <div className="card-glow" />
+          <div className="hero-photo">
+            <img src={profilePhoto} alt="Dhruvesh Akre" />
+          </div>
           <h3>Currently exploring</h3>
           <ul>
             <li>JavaScript frameworks</li>
