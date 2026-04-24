@@ -28,8 +28,6 @@ Full stack developer with a creative edge in video and photo editing. I build cl
 ## Courses
 - IoT & Robotics (2024)
 - MS-CIT (2019)
-- INTERMEDIATE (2017)
-- ELEMENTARY (2016)
 
 ## Training & Internships
 - Internship: [Company / Role / Duration]
@@ -46,7 +44,6 @@ Full stack developer with a creative edge in video and photo editing. I build cl
 ## Links
 - Instagram: https://www.instagram.com/_ditto.edits_15/
 - GitHub: https://github.com/developerdhru
-- LinkedIn: https://www.linkedin.com/in/dhruveshakre/
 
 ## Scripts
 - `npm run dev` — start dev server

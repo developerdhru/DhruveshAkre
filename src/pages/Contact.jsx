@@ -1,4 +1,5 @@
 import React from 'react'
+import resumeFile from '../assets/Dhruvesh_Akre CV.pdf'
 
 export default function Contact() {
   return (
@@ -41,7 +42,7 @@ export default function Contact() {
         <a className="btn primary" href="mailto:akredhruvesh@gmail.com">Send Email</a>
         <div className="quick-links">
           <a className="btn light" href="https://www.instagram.com/_ditto.edits_15/" target="_blank" rel="noreferrer">Instagram</a>
-          <a className="btn light" href="/resume.pdf" download>Resume</a>
+          <a className="btn light" href={resumeFile} target="_blank" rel="noreferrer">Resume</a>
           <a className="btn light" href="https://github.com/developerdhru" target="_blank" rel="noreferrer">GitHub</a>
           <a className="btn light" href="https://www.linkedin.com/in/dhruveshakre/" target="_blank" rel="noreferrer">LinkedIn</a>
 

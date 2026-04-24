@@ -10,16 +10,138 @@ export default function Projects() {
   const devProjects = [
     {
       id: 'dev-1',
-      title: 'Project showcase coming soon',
-      description: 'I am curating my strongest builds and case studies.',
-      skills: ['Full Stack', 'IoT', 'Creative'],
+      title: 'Photrum Technologies Web Platform',
+      description: 'Full-stack cybersecurity services website with Flask, Jinja2, MySQL, and an admin CMS for managing blogs, gallery content, team visibility, and client showcases.',
+      company: 'Full-Stack Cybersecurity Services Website with Admin CMS',
+      duration: '11/2025 - 03/2026',
+      details: [
+        'Built a full-stack cybersecurity company website using Flask, Jinja2, and MySQL with modular routing and reusable templates.',
+        'Developed an admin dashboard to manage blogs, featured images, gallery uploads, and client showcase content without code changes.',
+        'Implemented dynamic public pages (Home, Blog, About, Services, Team, Contact) with database-driven rendering and responsive UI components.',
+        'Added visibility control features for team content, including page-level and member-level toggles reflected across public navigation and sections.',
+        'Integrated contact form workflow with email delivery support and graceful fallback handling for non-configured mail environments.',
+      ],
+      impact: 'Improved content management speed and reduced manual update effort for public pages.',
+      skills: ['Flask', 'Jinja2', 'MySQL', 'Admin CMS', 'Responsive UI'],
       media: [],
     },
     {
       id: 'dev-2',
-      title: 'Flask + SQL Web App',
-      description: 'Scalable backend with clean UI and structured data flow.',
-      skills: ['Flask', 'SQL', 'JavaScript'],
+      title: 'EcoGrowAI: IoT-Enabled Crop & Fertilizer Recommendation System',
+      description: 'IoT-enabled crop and fertilizer recommendation platform with Flask, machine learning inference, prediction logging, and secure admin workflows.',
+      company: 'Full-Stack Development / Sustainable Farming Technology / IoT / Embedded System',
+      duration: '06/2026 - 04/2026',
+      details: [
+        'Developed an IoT-integrated smart agriculture platform that collects real-time sensor readings (soil and environmental parameters) and feeds them into machine learning models for crop and fertilizer recommendation.',
+        'Built a full-stack web application using Python and Flask, with REST/form-based prediction workflows for real-time inference and user-friendly dashboards.',
+        'Integrated ML inference pipeline (scikit-learn models) for classification-based recommendations, including preprocessing/encoding for sensor-driven and user-input features.',
+        'Implemented relational database management with MySQL and SQLAlchemy to store prediction logs, user/admin activity, and content data for analytics and traceability.',
+        'Created secure admin modules with authentication, CRUD operations, and content management, demonstrating backend development, API integration, and production-ready web architecture.',
+      ],
+      impact: 'Improved recommendation consistency and enabled traceable decision logs for farm insights.',
+      skills: ['Python', 'Flask', 'IoT', 'Machine Learning', 'MySQL'],
+      media: [],
+    },
+    {
+      id: 'dev-3',
+      title: 'Blockchain Certificate Verification System',
+      description: 'Certificate issuance and verification platform using smart contracts, role-based auth, and QR-based verification workflows.',
+      company: 'Full-Stack Development / Blockchain / Web Security / QR Verification',
+      duration: 'Jan 2026 - Apr 2026',
+      details: [
+        'Developed a secure certificate issuance and verification platform using blockchain to ensure tamper-proof and fraud-resistant credentials.',
+        'Built smart contracts with Solidity and Hardhat for immutable storage of certificate hashes and decentralized verification.',
+        'Designed backend using Node.js and Express.js with JWT authentication, role-based access, and certificate lifecycle management.',
+        'Integrated MongoDB and developed frontend with React for QR-based verification and admin dashboards.',
+        'Implemented a hybrid verification system combining blockchain validation with database status checks for real-time results.',
+      ],
+      impact: 'Reduced certificate fraud risk by enabling tamper-resistant verification.',
+      skills: ['React', 'Node.js', 'Express.js', 'Solidity', 'MongoDB'],
+      media: [],
+    },
+    {
+      id: 'dev-4',
+      title: 'FixMyWaste Smart Waste Management',
+      description: 'Waste tracking and complaint management system with role-based access and planned IoT integration for real-time monitoring.',
+      company: 'Web Development / Smart City Solutions',
+      duration: '2024 - 2025',
+      details: [
+        'Developed a full stack web application using Flask, JavaScript, MySQL.',
+        'Implemented role-based authentication (admin, driver, employee, user).',
+        'Built FixMyWaste platform for waste tracking and management.',
+        'Designed route optimization module for efficient waste collection.',
+        'Developed complaint management system for users.',
+        'Planned IoT integration for real-time monitoring (future scope).',
+      ],
+      impact: 'Streamlined complaint tracking and improved operational visibility for waste workflows.',
+      skills: ['Flask', 'JavaScript', 'MySQL', 'Role-based Auth'],
+      media: [],
+    },
+    {
+      id: 'dev-5',
+      title: 'Personal Portfolio Website',
+      description: 'Responsive personal branding site with project showcases and contact flows, designed for clear navigation across devices.',
+      company: 'Frontend Development / Personal Branding',
+      duration: '07/2025 - 10/2026',
+      details: [
+        'Developed portfolio website using HTML, CSS, JavaScript.',
+        'Hosted project using GitHub Pages.',
+        'Designed responsive UI for multiple devices.',
+        'Implemented project showcase and contact sections.',
+        'Focused on user-friendly navigation and layout.',
+      ],
+      impact: 'Improved presentation of technical and creative work in one unified profile site.',
+      skills: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+      media: [],
+    },
+    {
+      id: 'dev-6',
+      title: 'E-Gram Sahayak',
+      description: 'Village management and assistance system with full-stack architecture and machine-learning integration for practical e-governance use cases.',
+      company: 'Full Stack Development / Machine Learning / E-Governance',
+      duration: '2023 - 2024',
+      details: [
+        'Focused on solving real-world rural and agricultural problems.',
+        'Developed a full stack web application using Flask, Python, HTML, CSS, JavaScript.',
+        'Acknowledged villager about new scheme and other government schemes.',
+        'Implemented data preprocessing and model integration.',
+        'Focused on solving real-world rural and agricultural problems.',
+      ],
+      impact: 'Helped structure government-scheme awareness into a usable digital workflow.',
+      skills: ['Flask', 'Python', 'Machine Learning', 'JavaScript'],
+      media: [],
+    },
+    {
+      id: 'dev-7',
+      title: 'AniShop Single Page E-Commerce App',
+      description: 'Single-page e-commerce UI with category browsing, product listing, and user-focused layout.',
+      company: 'Frontend Development / Single Page Application (SPA) / E-Commerce',
+      duration: '2023',
+      details: [
+        'Developed a Single Page Application (SPA) using HTML, CSS, and JavaScript.',
+        'Designed responsive UI for product listing, categories, and user interface.',
+        'Built structured layout for e-commerce functionality.',
+        'Focused on UI/UX design and smooth user experience.',
+      ],
+      impact: 'Improved frontend design and component structuring skills for commerce interfaces.',
+      skills: ['HTML', 'CSS', 'JavaScript', 'SPA'],
+      media: [],
+    },
+    {
+      id: 'dev-8',
+      title: 'Solar Tracking System using Arduino Uno',
+      description: 'IoT and embedded systems project for renewable energy tracking.',
+      company: 'IoT / Embedded Systems / Renewable Energy',
+      duration: '2018 - 2019',
+      details: [
+        'Built an automated solar tracking system using Arduino Uno.',
+        'Integrated LDR sensors to detect sunlight direction.',
+        'Controlled gear motors using motor driver for panel movement.',
+        'Improved energy efficiency compared to fixed solar panels.',
+        'Implemented real-time tracking using embedded programming.',
+      ],
+      impact: 'Improved energy efficiency through automatic sunlight tracking.',
+      skills: ['Arduino Uno', 'LDR Sensors', 'Motor Driver', 'Embedded Programming'],
       media: [],
     },
   ]
@@ -551,9 +673,28 @@ Get ready… because the drama is about to begin.`,
               <article className="project-detail">
                 <div className="project-detail-head">
                   <h4>{selectedProject?.title}</h4>
-                  <p>{selectedProject?.description}</p>
+                  {isDevPanel ? (
+                    <>
+                      <p className="project-detail-org">{selectedProject?.company || 'Project Team'}</p>
+                      <p className="project-detail-date">Date: {selectedProject?.duration || 'Ongoing'}</p>
+                      <hr className="project-detail-divider" />
+                      <h5>Project details</h5>
+                      <ul className="plan-list">
+                        {(selectedProject?.details || [selectedProject?.description]).map((item) => (
+                          <li key={item}>{item}</li>
+                        ))}
+                      </ul>
+                      <div className="plan-impact">
+                        <strong>Impact</strong>
+                        <p>{selectedProject?.impact || 'Improved usability, consistency, and delivery quality.'}</p>
+                      </div>
+                      <h5>Technologies used</h5>
+                    </>
+                  ) : (
+                    <p>{selectedProject?.description}</p>
+                  )}
                 </div>
-                <div className="tag-row">
+                <div className={isDevPanel ? 'plan-tech' : 'tag-row'}>
                   {selectedProject?.skills.map((tag) => (
                     <span key={tag}>{tag}</span>
                   ))}

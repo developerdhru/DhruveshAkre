@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import resumeFile from '../assets/Dhruvesh_Akre CV.pdf'
 
 export default function Header() {
   return (
@@ -13,7 +14,7 @@ export default function Header() {
           <NavLink to="/services" className={({ isActive }) => isActive ? 'active' : ''}>Services</NavLink>
           <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>Contact</NavLink>
         </nav>
-        <a className="nav-cta" href="https://www.linkedin.com/in/dhruveshakre/" target="_blank" rel="noreferrer">LinkedIn</a>
+        <a className="nav-cta" href={resumeFile} target="_blank" rel="noreferrer">Resume</a>
       </div>
     </header>
   )
