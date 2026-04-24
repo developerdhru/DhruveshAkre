@@ -45,7 +45,4 @@ Full stack developer with a creative edge in video and photo editing. I build cl
 - Instagram: https://www.instagram.com/_ditto.edits_15/
 - GitHub: https://github.com/developerdhru
 
-## Scripts
-- `npm run dev` — start dev server
-- `npm run build` — build for production
-- `npm run preview` — preview the build locally
+

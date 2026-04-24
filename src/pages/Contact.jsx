@@ -44,7 +44,7 @@ export default function Contact() {
           <a className="btn light" href="https://www.instagram.com/_ditto.edits_15/" target="_blank" rel="noreferrer">Instagram</a>
           <a className="btn light" href={resumeFile} target="_blank" rel="noreferrer">Resume</a>
           <a className="btn light" href="https://github.com/developerdhru" target="_blank" rel="noreferrer">GitHub</a>
-          <a className="btn light" href="https://www.linkedin.com/in/dhruveshakre/" target="_blank" rel="noreferrer">LinkedIn</a>
+          {/* <a className="btn light" href="https://www.linkedin.com/in/dhruveshakre/" target="_blank" rel="noreferrer">LinkedIn</a> */}
 
         </div>
       </div>

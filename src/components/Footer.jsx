@@ -7,7 +7,7 @@ export default function Footer() {
         <p>© {new Date().getFullYear()} Dhruvesh Akre. All rights reserved.</p>
         <div className="footer-links">
           <a href="https://github.com/developerdhru" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://www.linkedin.com/in/dhruveshakre/" target="_blank" rel="noreferrer">LinkedIn</a>
+          {/* <a href="https://www.linkedin.com/in/dhruveshakre/" target="_blank" rel="noreferrer">LinkedIn</a> */}
           <a href="mailto:akredhruvesh@gmail.com">Email</a>
         </div>
       </div>

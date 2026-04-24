@@ -77,31 +77,31 @@ export default function About() {
         </div>
         <div className="skills">
           <h3>Skills</h3>
-          <div className="pill-grid">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Python (Flask)</span>
-            <span>Node.js</span>
-            <span>Express.js</span>
-            <span>SQL</span>
-            <span>MySQL</span>
-            <span>MongoDB (learning)</span>
-            <span>SQLAlchemy</span>
-            <span>Jinja2</span>
-            <span>C++ (Basic)</span>
-            <span>Git</span>
-            <span>GitHub</span>
-            <span>UI/UX Basics</span>
-            <span>Responsive Design</span>
-            <span>Project Planning</span>
-            <span>Team Leadership</span>
-            <span>IoT Development</span>
-            <span>Photoshop</span>
-            <span>Premiere Pro</span>
-            <span>Illustrator</span>
-            <span>After Effects</span>
+          <div className="skills-showcase">
+            <div className="skill-group">
+              <h4>Programming & Web Development:</h4>
+              <p>JavaScript, Python (Flask), HTML, CSS, C++ (Basic)</p>
+            </div>
+            <div className="skill-group">
+              <h4>Frontend Development:</h4>
+              <p>Responsive Design, SPA (Single Page Applications), UI/UX Basics</p>
+            </div>
+            <div className="skill-group">
+              <h4>Database:</h4>
+              <p>MySQL, MongoDB (Basic / Learning)</p>
+            </div>
+            <div className="skill-group">
+              <h4>Tools & Technologies:</h4>
+              <p>VS Code, Git, GitHub, AutoCAD</p>
+            </div>
+            <div className="skill-group">
+              <h4>Creative Tools:</h4>
+              <p>Adobe Photoshop, Illustrator, Premiere Pro, After Effects</p>
+            </div>
+            <div className="skill-group">
+              <h4>IoT & Embedded (Basic):</h4>
+              <p>Embedded Systems</p>
+            </div>
           </div>
         </div>
       </div>

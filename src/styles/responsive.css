@@ -54,6 +54,10 @@
     padding: 20px;
   }
 
+  .skills-showcase {
+    grid-template-columns: 1fr;
+  }
+
   .project-detail {
     padding: 18px;
   }
